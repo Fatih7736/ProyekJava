@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class BesarPembelian {
     public static void main(String[] args) {
+
+        // Tampilan Awal
         System.out.println("Penentuan Diskon (Diskon 20%, minimal pembelanjaan 200.000Rp)");
         System.out.println("----------------");
 
@@ -12,12 +14,14 @@ public class BesarPembelian {
         System.out.println("Nilai Pembelian = ");
         besarpembelian = kbd.nextLong();
 
+        // Proses Logika
         diskon = 0;
         if (besarpembelian >= 200000)
             diskon = (long) (0.2 * besarpembelian);
         
         besarpembayaran = besarpembelian - diskon;
 
+        // Hasil Akhir
         System.out.println();
         System.out.println("Pembelian  = " + besarpembelian);
         System.out.println("Diskon     = " + diskon);
@@ -26,4 +30,5 @@ public class BesarPembelian {
 
         
     }
+
 }
