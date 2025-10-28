@@ -1,2 +1,2 @@
 # ProyekJava
-Kumpulan dari C++, Java, dan Python
+Kumpulan proyek pemrogramman dari Java
