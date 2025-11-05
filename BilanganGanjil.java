@@ -4,6 +4,7 @@ public class BilanganGanjil {
     public static void main (String []args) {
         int hitungan, n;
 
+        // Tampilan Awal
         System.out.println("Deret N Hitungan Ganjil");
         System.out.println("=======================");
 
@@ -11,6 +12,7 @@ public class BilanganGanjil {
         System.out.println("N = ");
         n = kbd.nextInt();
 
+        // Proses Logika
         hitungan = 1;
         do { 
             System.out.print((2 * hitungan - 1) + " ");
@@ -19,4 +21,5 @@ public class BilanganGanjil {
 
         System.out.println();
     }
+
 }
